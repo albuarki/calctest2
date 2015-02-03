@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05056BB194F342A0060B1A4 /* JBType.m in Sources */ = {isa = PBXBuildFile; fileRef = D05056BA194F342A0060B1A4 /* JBType.m */; };
+		D05056BE194F34490060B1A4 /* JBFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D05056BD194F34490060B1A4 /* JBFactory.m */; };
+		D05056C01953A6120060B1A4 /* iphone1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05056BF1953A6120060B1A4 /* iphone1.jpg */; };
+		D05056C2195458B60060B1A4 /* abc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05056C1195458B60060B1A4 /* abc.jpg */; };
+		D05056C4195459090060B1A4 /* abc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05056C3195459090060B1A4 /* abc1.jpg */; };
 		D07AA36E194DD1370000C068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07AA36D194DD1370000C068 /* Foundation.framework */; };
 		D07AA370194DD1370000C068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07AA36F194DD1370000C068 /* CoreGraphics.framework */; };
 		D07AA372194DD1370000C068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07AA371194DD1370000C068 /* UIKit.framework */; };
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D05056B9194F342A0060B1A4 /* JBType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBType.h; sourceTree = "<group>"; };
+		D05056BA194F342A0060B1A4 /* JBType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBType.m; sourceTree = "<group>"; };
+		D05056BC194F34490060B1A4 /* JBFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFactory.h; sourceTree = "<group>"; };
+		D05056BD194F34490060B1A4 /* JBFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFactory.m; sourceTree = "<group>"; };
+		D05056BF1953A6120060B1A4 /* iphone1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone1.jpg; sourceTree = "<group>"; };
+		D05056C1195458B60060B1A4 /* abc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpg; sourceTree = "<group>"; };
+		D05056C3195459090060B1A4 /* abc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc1.jpg; sourceTree = "<group>"; };
 		D07AA36A194DD1370000C068 /* calctest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calctest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07AA36D194DD1370000C068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D07AA36F194DD1370000C068 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +129,10 @@
 				D07AA37F194DD1380000C068 /* Main.storyboard */,
 				D07AA382194DD1380000C068 /* JBViewController.h */,
 				D07AA383194DD1380000C068 /* JBViewController.m */,
+				D05056BC194F34490060B1A4 /* JBFactory.h */,
+				D05056BD194F34490060B1A4 /* JBFactory.m */,
+				D05056B9194F342A0060B1A4 /* JBType.h */,
+				D05056BA194F342A0060B1A4 /* JBType.m */,
 				D07AA385194DD1380000C068 /* Images.xcassets */,
 				D07AA374194DD1370000C068 /* Supporting Files */,
 			);
@@ -126,6 +142,9 @@
 		D07AA374194DD1370000C068 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D05056C3195459090060B1A4 /* abc1.jpg */,
+				D05056C1195458B60060B1A4 /* abc.jpg */,
+				D05056BF1953A6120060B1A4 /* iphone1.jpg */,
 				D07AA375194DD1380000C068 /* calctest2-Info.plist */,
 				D07AA376194DD1380000C068 /* InfoPlist.strings */,
 				D07AA379194DD1380000C068 /* main.m */,
@@ -230,6 +249,9 @@
 			files = (
 				D07AA386194DD1380000C068 /* Images.xcassets in Resources */,
 				D07AA378194DD1380000C068 /* InfoPlist.strings in Resources */,
+				D05056C01953A6120060B1A4 /* iphone1.jpg in Resources */,
+				D05056C2195458B60060B1A4 /* abc.jpg in Resources */,
+				D05056C4195459090060B1A4 /* abc1.jpg in Resources */,
 				D07AA381194DD1380000C068 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07AA37E194DD1380000C068 /* JBAppDelegate.m in Sources */,
+				D05056BB194F342A0060B1A4 /* JBType.m in Sources */,
 				D07AA384194DD1380000C068 /* JBViewController.m in Sources */,
 				D07AA37A194DD1380000C068 /* main.m in Sources */,
+				D05056BE194F34490060B1A4 /* JBFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +480,7 @@
 				D07AA39E194DD1380000C068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D07AA39F194DD1380000C068 /* Build configuration list for PBXNativeTarget "calctest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				D07AA3A1194DD1380000C068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

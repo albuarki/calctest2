@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6C07433-EA13-4021-BFA8-C71B2F9A1589</string>
+	<key>IDESourceControlProjectName</key>
+	<string>calctest2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C11E4C9-1982-4A1D-A2E0-8613F24B0179</key>
+		<string>https://github.com/albuarki/calctest2.git</string>
+		<key>C97747F4-FD25-489C-8F05-5C6E5D183088</key>
+		<string>https://github.com/albuarki/s.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>calctest2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C11E4C9-1982-4A1D-A2E0-8613F24B0179</key>
+		<string>../..</string>
+		<key>C97747F4-FD25-489C-8F05-5C6E5D183088</key>
+		<string>../../calctest2</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/albuarki/calctest2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C11E4C9-1982-4A1D-A2E0-8613F24B0179</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C11E4C9-1982-4A1D-A2E0-8613F24B0179</string>
+			<key>IDESourceControlWCCName</key>
+			<string>calctest2</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C97747F4-FD25-489C-8F05-5C6E5D183088</string>
+			<key>IDESourceControlWCCName</key>
+			<string>calctest2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
