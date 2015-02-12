@@ -40,9 +40,9 @@
     self.currentPoint = 0;
     [self updateTypes];
 
-    self.infoBarLabel.backgroundColor = [UIColor clearColor];
+    //self.infoBarLabel.backgroundColor = [UIColor clearColor];
     
-
+/*
     if (self.massButton.state == UIControlStateHighlighted) {
         if (self.massButton.state == UIControlStateSelected) {
             [UIView animateWithDuration:0.25 animations:^{
@@ -55,7 +55,8 @@
 
         }
            }
-
+*/
+    
 }
 
 
@@ -657,9 +658,9 @@
     self.outputUnit.text = @"";
     self.infoBarLabel.text = @"";
     
-    self.consoleView.backgroundColor=[UIColor clearColor];
+    //self.consoleView.backgroundColor=[UIColor clearColor];
 
-    self.infoBarLabel.backgroundColor = [UIColor clearColor];
+    //self.infoBarLabel.backgroundColor = [UIColor clearColor];
 
     
     
@@ -785,7 +786,7 @@
     self.calanderButton.hidden = YES;
     
 
-    self.consoleView.backgroundColor=[UIColor colorWithRed:0.41 green:0.8 blue:1 alpha:1];
+    //self.consoleView.backgroundColor=[UIColor colorWithRed:0.41 green:0.8 blue:1 alpha:1];
 
     self.unit1Button.hidden = NO;
     CGRect unit1Button = self.unit1Button.frame;
@@ -826,7 +827,7 @@
     self.unit6Button.frame = unit6Button;
     
     
-    self.infoBarLabel.backgroundColor = [UIColor whiteColor];
+    //self.infoBarLabel.backgroundColor = [UIColor whiteColor];
 
     
 
@@ -849,7 +850,7 @@
     self.tempButton.hidden = YES;
     self.calanderButton.hidden = YES;
     
-    self.infoBarLabel.backgroundColor = [UIColor whiteColor];
+    //self.infoBarLabel.backgroundColor = [UIColor whiteColor];
     
     self.unit1Button.hidden = NO;
     CGRect unit1Button = self.unit1Button.frame;
@@ -907,7 +908,9 @@
     self.tempButton.hidden = YES;
     self.calanderButton.hidden = YES;
     
-    self.infoBarLabel.backgroundColor = [UIColor whiteColor];
+    
+    //self.infoBarLabel.backgroundColor = [UIColor whiteColor];
+    
     self.unit1Button.hidden = NO;
     CGRect unit1Button = self.unit1Button.frame;
     unit1Button.origin.x = 214;
@@ -965,9 +968,9 @@
     self.tempButton.hidden = YES;
     self.calanderButton.hidden = YES;
     
-    self.consoleView.backgroundColor=[UIColor colorWithRed:1 green:1 blue:0 alpha:1];
+    //self.consoleView.backgroundColor=[UIColor colorWithRed:1 green:1 blue:0 alpha:1];
     
-    self.infoBarLabel.backgroundColor = [UIColor whiteColor];
+    //self.infoBarLabel.backgroundColor = [UIColor whiteColor];
     
     self.unit1Button.hidden = NO;
     CGRect unit1Button = self.unit1Button.frame;
